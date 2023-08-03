@@ -1,0 +1,39 @@
+body{
+    background-image: url('harry.jpg');
+            background-repeat: no-repeat;
+           background-size: 100% 100%;
+          
+        }
+        video{
+            margin: 80px;
+            margin-top: 150px;
+            margin-bottom: 150px;
+            margin-left: 100px;
+        }
+h1{
+    color: white;
+    text-align: center;
+    background-color: black;
+    margin:0px 350px 0px 350px;
+}
+#myVedio{
+    position: cover;
+    right: 0%;
+    left: 0%;
+   min-width: "100%";
+    min-height:"100%";
+    margin-left: 15px;
+}
+    .container {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 650%;
+  height: 0;
+  overflow: hidden;
+  font-size: 0;
+  margin: auto;
+  z-index: -1000;
+  padding-bottom: 65%;
+  padding-left: 6%;
+}
